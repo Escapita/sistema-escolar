@@ -1,0 +1,37 @@
+<div class="container">
+  <button
+    class="buttongreen"
+    style="position: absolute; top: 12%; left: 7%; border-radius: 50%"
+    (click)="goMenu()"
+  >
+    <-
+  </button>
+  <h1 style="position: absolute; top: 5%; margin-left: 150px; font-size: 45px">
+    {{title}}
+  </h1>
+  <form
+    style="position: absolute; top: 22%; left: 5%; right: 5%; margin-left: 10px"
+  >
+    <input
+      type="text"
+      class="forms-control"
+      placeholder="Buscar alumno"
+      style="
+        width: 30%;
+        line-height: 3em;
+        font-family: 'Ubuntu', sans-serif;
+        outline: none;
+        padding-left: 10px;
+      "
+    />
+    <button class="buttongreen" style="position: absolute; right: 265px">
+      Eliminar
+    </button>
+    <button class="buttongreen" style="position: absolute; right: 130px">
+      Modificar
+    </button>
+    <button class="buttongreen" style="position: absolute; right: 10px">
+      Agregar
+    </button>
+  </form>
+</div>
